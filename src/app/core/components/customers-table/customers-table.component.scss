@@ -1,0 +1,14 @@
+.table {
+
+  &--row__link {
+    color: black;
+  }
+
+  &-empty {
+    text-align: center;
+  }
+
+  &-row:hover {
+    background-color: #e9e9e9;
+  }
+}

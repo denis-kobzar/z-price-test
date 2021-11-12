@@ -1,0 +1,39 @@
+<form class="form" [formGroup]="customerForm" (ngSubmit)="addCustomer()">
+  <div class="input-group mb-3">
+    <span class="input-group-text">Full name</span>
+    <input type="text"
+           class="form-control"
+           aria-describedby="basic-addon3"
+           formControlName="fullName">
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text">Phone</span>
+    <input type="text"
+           class="form-control"
+           aria-describedby="basic-addon3"
+           formControlName="phone">
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text">Email</span>
+    <input type="text"
+           class="form-control"
+           aria-describedby="basic-addon3"
+           formControlName="email">
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text">Address</span>
+    <input type="text"
+           class="form-control"
+           id="basic-url"
+           aria-describedby="basic-addon3"
+           formControlName="address">
+  </div>
+
+  <div class="d-flex flex-row-reverse">
+    <button type="submit"
+            class="btn btn-primary align-self-end"
+            [disabled]="customerForm.invalid">Add</button>
+  </div>
+</form>
+
+

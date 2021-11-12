@@ -1,0 +1,102 @@
+{
+  "customers": [
+    {
+      "fullName": "Denis Kobzar",
+      "phone": "+380999374911",
+      "email": "dk@gmail.com",
+      "address": "NY",
+      "id": "ee1a36d0-439b-11ec-b602-cdde9fcdf10a"
+    },
+    {
+      "fullName": "Peter",
+      "phone": "+21342435",
+      "email": "peter@gmail.com",
+      "address": "NY",
+      "id": "3b07ac70-43ab-11ec-bdb9-49aafef839a8"
+    },
+    {
+      "fullName": "123",
+      "phone": "  n nh jt y",
+      "email": "jyu kiu",
+      "address": "k uik u",
+      "id": "a6e9ede0-43ab-11ec-92ca-ab5bec3cc1e7"
+    },
+    {
+      "id": "a2d75990-43b0-11ec-a15e-493174d1a7a1",
+      "fullName": "Peter Jackson",
+      "phone": "+234546",
+      "email": "pj@gmail.com",
+      "address": "New Zeland"
+    },
+    {
+      "id": "ba9f4e60-43ca-11ec-b8fb-67fc203b55a4",
+      "fullName": "324",
+      "phone": "r34",
+      "email": "r34t",
+      "address": "t43"
+    },
+    {
+      "id": "98249bb0-43cf-11ec-9f5d-cf8f1ecfcb58",
+      "fullName": "nhj",
+      "phone": "+380503156023",
+      "email": "gerge",
+      "address": "erger"
+    },
+    {
+      "id": "a627a4f0-43cf-11ec-9f5d-cf8f1ecfcb58",
+      "fullName": "Pit",
+      "phone": "0507178620",
+      "email": "rwer",
+      "address": "wrger"
+    },
+    {
+      "id": "af51d5f0-43cf-11ec-9f5d-cf8f1ecfcb58",
+      "fullName": "ergg",
+      "phone": "1231",
+      "email": "erg",
+      "address": "gg"
+    },
+    {
+      "id": "f8e34d20-43cf-11ec-9e79-b5f37f39a9d3",
+      "fullName": "qwe",
+      "phone": "123",
+      "email": "qwe",
+      "address": "qwe"
+    },
+    {
+      "id": "3dec6090-43d1-11ec-93f0-33edee42bcc1",
+      "fullName": "Bob",
+      "phone": "2134",
+      "email": "2134rve",
+      "address": "rf"
+    },
+    {
+      "id": "82edc850-43d1-11ec-93f0-33edee42bcc1",
+      "fullName": "bob",
+      "phone": "phobe",
+      "email": "email",
+      "address": "adddd"
+    },
+    {
+      "id": "278ccf30-43d4-11ec-a7c8-abd8d49231d5",
+      "fullName": "Vlad",
+      "phone": "+380999374911",
+      "email": "a@gmail.com",
+      "address": "qwe"
+    },
+    {
+      "id": "63966b20-43d5-11ec-90dc-6b72ea5cf58a",
+      "fullName": "wqe",
+      "phone": "+123456789023",
+      "email": "qwe@g.com",
+      "address": "qwe"
+    },
+    {
+      "id": "7e828220-43d5-11ec-8dfd-bd1fcac43d7f",
+      "fullName": "qwe",
+      "phone": "+343343434434",
+      "email": "w@g.com",
+      "address": "zxc"
+    }
+  ]
+}

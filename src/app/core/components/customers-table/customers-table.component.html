@@ -1,0 +1,49 @@
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">Full name</th>
+    <th scope="col">Phone</th>
+    <th scope="col">Email</th>
+    <th scope="col">Address</th>
+  </tr>
+  </thead>
+  <tbody *ngIf="customers.length; else empty">
+    <tr class="table-row"
+        *ngFor="let customer of customers">
+      <td>
+        <a class="table-row__link" [routerLink]="['/customer', customer.id]">
+          <p class="table-row__link">{{ customer.fullName }}</p>
+        </a>
+      </td>
+      <td>
+        <a class="table-row__link" [routerLink]="['/customer', customer.id]">
+          {{ customer.phone }}
+        </a>
+      </td>
+      <td>
+        <a class="table-row__link" [routerLink]="['/customer', customer.id]">
+          {{ customer.email }}
+        </a>
+      </td>
+      <td>
+        <a class="table-row__link" [routerLink]="['/customer', customer.id]">
+          {{ customer.address }}
+        </a>
+      </td>
+    </tr>
+  </tbody>
+  <ng-template #empty>
+    <p class="table-empty">Empty</p>
+  </ng-template>
+</table>
+
+<!--<div class="d-flex justify-content-between p-2">
+  <ngb-pagination [collectionSize]="collectionSize" [(page)]="page" [pageSize]="pageSize" (pageChange)="refreshCountries()">
+  </ngb-pagination>
+
+  <select class="custom-select" style="width: auto" [(ngModel)]="pageSize" (ngModelChange)="refreshCountries()">
+    <option [ngValue]="2">2 items per page</option>
+    <option [ngValue]="4">4 items per page</option>
+    <option [ngValue]="6">6 items per page</option>
+  </select>
+</div>-->
